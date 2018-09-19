@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import ImageFadeIn from './'
 
-describe('ExampleComponent', () => {
+describe('ImageFadeIn', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ImageFadeIn).toBeTruthy()
   })
 })
