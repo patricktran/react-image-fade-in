@@ -59,6 +59,17 @@ export default class ImageFadeIn extends PureComponent {
     }
 }
 
+ImageFadeIn.propTypes = {
+  /** image source url.   */
+  src: PropTypes.string.isRequired,
+  /** if false, renders as an IMG tag. If true, renders a DIV with image as the background-image (style css). */
+  loadAsBackgroundImage: PropTypes.bool,
+  /** Duration of the fade in, in seconds (s). */
+  opacityTransition: PropTypes.number,
+  /** OnClick handler. */
+  onClick: PropTypes.func,
+}
+
 ImageFadeIn.defaultProps = {
     loadAsBackgroundImage: false,
     opacityTransition: ".5s"
