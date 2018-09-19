@@ -35,7 +35,7 @@ This a list of props that you can pass down to the component:
 | `src`  |  image source url |  | string | yes
 | `loadAsBackgroundImage`  | if false, renders as an IMG tag. If true, renders a DIV with image as the background-image (style css)  | false | bool | 
 | `opacityTransition`  | Duration of the fade in, in seconds (s)  | 0.5s | number | 
-| `onClick` | onClick handler |  | string |
+| `onClick` | onClick handler |  | function |
 
 ## License
 
