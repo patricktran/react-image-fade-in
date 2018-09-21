@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { configure } from '@storybook/react';
 import { configure, addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 
@@ -29,11 +28,3 @@ function loadStories() {
 }
 
 configure(loadStories, module);
-
-/*
-function loadStories() {
-  require('../src/stories');
-}
-
-configure(loadStories, module);
-*/

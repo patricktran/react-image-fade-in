@@ -1,6 +1,6 @@
 # react-image-fade-in
 
-> Simple component for fading in images. Just pass it a src prop.
+> Simple, no frills, component for fading in images. Just pass it a src prop.
 
 [![NPM](https://img.shields.io/npm/v/react-image-fade-in.svg)](https://www.npmjs.com/package/react-image-fade-in) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
