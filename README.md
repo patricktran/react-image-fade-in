@@ -36,6 +36,8 @@ This a list of props that you can pass down to the component:
 | `loadAsBackgroundImage`  | if false, renders as an IMG tag. If true, renders a DIV with image as the background-image (style css)  | false | bool | 
 | `opacityTransition`  | Duration of the fade in, in seconds (s)  | 0.5s | number | 
 | `onClick` | onClick handler |  | function |
+| HTML Global Attributes | add your own attributes (style, className, id, etc.) |
+| HTML Event Attributes |  add you own events (onBlur, onFocus, onMouseDown, etc.) |
 
 ## License
 

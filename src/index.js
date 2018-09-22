@@ -39,22 +39,22 @@ export default class ImageFadeIn extends PureComponent {
 
     render() {
 
-        const { src, loadAsBackgroundImage, opacityTransition, ...rest } = this.props;
+        const { src, loadAsBackgroundImage, opacityTransition, style, ...rest } = this.props;
         //add transition style
         let imageStyle = {
             opacity: '0'
         };
 
-        imageStyle.transition = `opacity ${opacityTransition} ease 0s`;
+        imageStyle.transition = `opacity ${opacityTransition}s ease 0s`;
 
         return (<React.Fragment>
             {!loadAsBackgroundImage && (<img
                 src={src}
                 {...rest}
-                style={this.state.loaded ? { ...imageStyle, ...imageLoadedStyle } : imageStyle} />)
+                style={this.state.loaded ? { ...style, ...imageStyle, ...imageLoadedStyle } : imageStyle} />)
             }{loadAsBackgroundImage && (<div
                 {...rest}
-                style={this.state.loaded ? { backgroundImage: `url('${src}')`, ...imageStyle, ...imageLoadedStyle } : imageStyle}>
+                style={this.state.loaded ? { backgroundImage: `url('${src}')`, ...style, ...imageStyle, ...imageLoadedStyle } : imageStyle}>
             </div>)
             }</React.Fragment>)
     }
@@ -73,5 +73,5 @@ ImageFadeIn.propTypes = {
 
 ImageFadeIn.defaultProps = {
     loadAsBackgroundImage: false,
-    opacityTransition: ".5s"
+    opacityTransition: .5
 }

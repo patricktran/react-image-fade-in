@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+
+strong{
+    font-size: 15px;
+}
+
+button{
+    background-color: paleturquoise;
+    border: 0;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    font-weight: 700;
+    text-transform: capitalize;
+}
