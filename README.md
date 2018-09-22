@@ -39,7 +39,7 @@ This a list of props that you can pass down to the component:
 | `opacityTransition`  | Duration of the fade in, in seconds (s)  | 0.5s | number | 
 | `onClick` | onClick handler |  | function |
 | `HTML Global Attributes` | add your own attributes (style, className, id, etc.) |
-| `HTML Event Attributes` |  add you own events (onBlur, onFocus, onMouseDown, etc.) |
+| `HTML Event Attributes` |  add your own events (onBlur, onFocus, onMouseDown, etc.) |
 
 ## License
 
