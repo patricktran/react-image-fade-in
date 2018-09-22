@@ -57,5 +57,12 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "image",
+    "fade in image",
+    "fade image"
   ]
 }

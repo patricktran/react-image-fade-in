@@ -22,7 +22,7 @@ import ImageFadeIn from 'react-image-fade-in'
 class Example extends Component {
   render () {
     return (
-      <ImageFadeIn src={imageSrc} />
+      <ImageFadeIn width={640} height={480} src={imageSrc} />
     )
   }
 }
