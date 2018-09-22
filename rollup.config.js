@@ -32,9 +32,6 @@ export default {
       exclude: 'node_modules/**'
     }),
     resolve(),
-    commonjs(),
-    minify({
-      comments: false
-    })
+    commonjs()
   ]
 }
