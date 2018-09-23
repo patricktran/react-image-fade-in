@@ -1,7 +1,11 @@
 
 import React from 'react';
-import { configure, addDecorator } from '@storybook/react';
+import { configure, addDecorator, setAddon } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
+import JSXAddon from 'storybook-addon-jsx';
+
+//with JSX addon
+setAddon(JSXAddon);
 
 //global decorator applied to every story
 addDecorator(story => (

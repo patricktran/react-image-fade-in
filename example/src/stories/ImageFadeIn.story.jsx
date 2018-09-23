@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf, forceReRender } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
 import { text, boolean, object, number } from '@storybook/addon-knobs';
 import './styles.css';
 
@@ -23,16 +22,15 @@ const withReRender = (component) => {
 }
 
 storiesOf('ImageFadeIn', module)
-    .add('with image', () => {
+    .addWithJSX('with image', () => {
 
         return withReRender(
             <ImageFadeIn
                 width="350px"
-                onClick={action('image clicked!')}
                 opacityTransition={number('opacityTransition (seconds)', 3)}
                 src={text('src', "https://raw.githubusercontent.com/patricktran/react-image-fade-in/master/nismo-dog.jpg")} />);
     })
-    .add('load as background image', () => {
+    .addWithJSX('load as background image', () => {
 
         return withReRender(<ImageFadeIn
             style={object('style', {
