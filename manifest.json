@@ -1,0 +1,8 @@
+{
+  "short_name": "react-image-fade-in",
+  "name": "react-image-fade-in",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
