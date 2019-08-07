@@ -55,6 +55,7 @@ export default class ImageFadeIn extends PureComponent {
             }{loadAsBackgroundImage && (<div
                 {...rest}
                 style={this.state.loaded ? { backgroundImage: `url('${src}')`, ...style, ...imageStyle, ...imageLoadedStyle } : imageStyle}>
+                {this.props.children}
             </div>)
             }</React.Fragment>)
     }

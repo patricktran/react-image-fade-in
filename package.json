@@ -1,6 +1,6 @@
 {
   "name": "react-image-fade-in",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Simple, no frills, component for fading in images. Just pass it a src prop.",
   "author": "patricktran",
   "license": "MIT",
