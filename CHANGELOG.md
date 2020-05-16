@@ -2,7 +2,7 @@
 
 # [1.1.1](2020-05-14)
 
-Add scarf installation anayltics 
+Add scarf installation analytics 
 
 <a name="1.1.0"></a>
 
