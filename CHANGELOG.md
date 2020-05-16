@@ -1,3 +1,9 @@
+<a name="1.1.1"></a>
+
+# [1.1.1](2020-05-14)
+
+Add scarf installation anayltics 
+
 <a name="1.1.0"></a>
 
 # [1.1.0](2019-08-06)
